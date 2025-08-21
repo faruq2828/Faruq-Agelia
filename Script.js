@@ -36,13 +36,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const polaroidContainer = document.querySelector('.polaroid-container');
     // Ganti dengan link gambar Anda sendiri
 
-    const images = [
-    '_GSD1544.jpg',
-    '_GSD1784.jpg',
-    '_GSD1791.jpg',
-    '_GSD2106.jpg',
-    '_GSD1223.jpg'
+const images = [
+    './_GSD1544.jpg',
+    './_GSD1784.jpg',
+    './_GSD1791.jpg',
+    './_GSD2106.jpg',
+    './_GSD1223.jpg'
 ];
+
 
 
     function createPolaroid(imageUrl) {
